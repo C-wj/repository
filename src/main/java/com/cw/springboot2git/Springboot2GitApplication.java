@@ -1,0 +1,12 @@
+package com.cw.springboot2git;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class Springboot2GitApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(Springboot2GitApplication.class, args);
+    }
+}
