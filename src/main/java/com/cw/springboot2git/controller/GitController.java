@@ -11,6 +11,7 @@ public class GitController {
     @RequestMapping(value = "/hi/{name}" , method = RequestMethod.GET)
     public String hi(@PathVariable("name") String name){
         System.out.println("hi--->"+name);
+        System.out.println("hello is successful...");
         return "hi---->"+name;
     }
 
